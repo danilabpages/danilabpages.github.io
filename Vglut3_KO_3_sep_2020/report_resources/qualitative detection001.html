@@ -1,0 +1,2844 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Document</title>
+	<meta HTTP-EQUIV='Content-Type' CONTENT='text/html; charset=utf-8'>
+	<style type="text/css">
+		.cs7205A8BB {color:#000000;background-color:#00FF00;border-left:#000000 1px solid;border-top:#000000 1px solid;border-right:#000000 1px solid;border-bottom:#000000 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;padding-right:2px;}
+		.cs9EAE67E0 {color:#000000;background-color:#E8E8E8;border-left:#E8E8E8 1px solid;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;}
+		.cs8ED79729 {color:#000000;background-color:#E8E8E8;border-left:#E8E8E8 1px solid;border-top:#E8E8E8 1px solid;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs3051DF7A {color:#000000;background-color:#E8E8E8;border-left:#E8E8E8 1px solid;border-top-style: none;border-right-style: none;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csF4E71A23 {color:#000000;background-color:#E8E8E8;border-left:#E8E8E8 1px solid;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs390EA878 {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;}
+		.cs6B687378 {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs3604CE32 {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top:#E8E8E8 1px solid;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csA3506DBB {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top-style: none;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csEA7AA95E {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top-style: none;border-right:#E8E8E8 1px solid;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs4FA490CA {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csED308D75 {color:#000000;background-color:#E8E8E8;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs9CADFDCA {color:#000000;background-color:#FF0000;border-left:#000000 1px solid;border-top:#000000 1px solid;border-right:#000000 1px solid;border-bottom:#000000 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;padding-right:2px;}
+		.cs39B66313 {color:#000000;background-color:#FFFFFF;border-left:#E8E8E8 1px solid;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;}
+		.cs96289795 {color:#000000;background-color:#FFFFFF;border-left:#E8E8E8 1px solid;border-top:#E8E8E8 1px solid;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs66BCB9E3 {color:#000000;background-color:#FFFFFF;border-left:#E8E8E8 1px solid;border-top-style: none;border-right-style: none;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csEE958329 {color:#000000;background-color:#FFFFFF;border-left:#E8E8E8 1px solid;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csC1D8E501 {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;}
+		.csA2DCF759 {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csE584BEBE {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top:#E8E8E8 1px solid;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs4CAECA0B {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csA8148512 {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right:#E8E8E8 1px solid;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csFB6203A2 {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs8BE7A6D9 {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.cs78D3A0E2 {color:#000000;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Times New Roman; font-size:9pt; font-weight:normal; font-style:normal; }
+		.cs5EA52491 {color:#2F496F;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Arial; font-size:10pt; font-weight:normal; font-style:normal; padding-left:8px;}
+		.cs892AFE34 {color:#2F496F;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Arial; font-size:12pt; font-weight:normal; font-style:normal; padding-left:2px;padding-right:2px;}
+		.csD383677D {color:#2F496F;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Arial; font-size:13pt; font-weight:normal; font-style:normal; }
+		.csF2DD7507 {color:#2F496F;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Arial; font-size:13pt; font-weight:normal; font-style:normal; padding-left:2px;padding-right:2px;}
+		.cs79B1BEBA {color:#2F496F;background-color:#FFFFFF;border-left-style: none;border-top-style: none;border-right-style: none;border-bottom-style: none;font-family:Arial; font-size:18pt; font-weight:normal; font-style:normal; }
+		.cs5CA11B1D {color:#FFFFFF;background-color:#437BB5;border-left:#E8E8E8 1px solid;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csEDBDB9D4 {color:#FFFFFF;background-color:#437BB5;border-left:#E8E8E8 1px solid;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;}
+		.cs46383B35 {color:#FFFFFF;background-color:#437BB5;border-left-style: none;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; }
+		.csF3F72F51 {color:#FFFFFF;background-color:#437BB5;border-left-style: none;border-top:#E8E8E8 1px solid;border-right:#E8E8E8 1px solid;border-bottom:#E8E8E8 1px solid;font-family:Tahoma; font-size:8pt; font-weight:normal; font-style:normal; padding-left:2px;}
+		.csF7D3565D {height:0px;width:0px;overflow:hidden;font-size:0px;line-height:0px;}
+	</style>
+</head>
+<body leftMargin=10 topMargin=10 rightMargin=10 bottomMargin=10 style="background-color:#FFFFFF">
+<script type="text/javascript">
+// <![CDATA[
+
+var __aspxAgent = navigator.userAgent.toLowerCase();
+var __aspxOpera = (__aspxAgent.indexOf("opera") > -1);
+var __aspxIE = (__aspxAgent.indexOf("msie") > -1 && !__aspxOpera);
+window.xr_NavigateUrl = function (url, target) {
+ if (__aspxIE)
+  xr_NavigateUrlForIE(url, target);
+ else
+  xr_NavigateUrlForNonIE(url, target);
+}
+function xr_NavigateUrlForIE(url, target) {
+ if(url==null) 
+  return;
+ var a = document.createElement("a");
+ a.setAttribute('href',url);
+ if(target != null) 
+  a.setAttribute('target',target);
+ document.body.appendChild(a);
+ a.click();
+ document.body.removeChild(a);
+}
+function xr_NavigateUrlForNonIE(url, target) {
+ var javascriptPrefix = "javascript:";
+ if(url == "")
+  return;
+ else if(url.indexOf(javascriptPrefix) != -1) 
+  eval(url.substr(javascriptPrefix.length));
+ else {
+  if(target != "")
+   _aspxNavigateTo(url, target);
+  else
+   location.href = url;
+ }
+}
+function _aspxNavigateTo(url, target) {
+ var lowerCaseTarget = target.toLowerCase();
+ if("_top" == lowerCaseTarget)
+  top.location.href = url;
+ else if("_self" == lowerCaseTarget)
+  location.href = url;
+ else if("_search" == lowerCaseTarget)
+  window.open(url, 'blank');
+ else if("_media" == lowerCaseTarget)
+  window.open(url, 'blank');
+ else if("_parent" == lowerCaseTarget)
+  window.parent.location.href = url;
+ else if("_blank" == lowerCaseTarget)
+  window.open(url, 'blank');
+ else {
+  var frame = _aspxGetFrame(top.frames, target);
+  if(frame != null)
+   frame.location.href = url;
+  else
+   window.open(url, 'blank');
+ }
+}
+function _aspxGetFrame(frames, name) {
+ if(_aspxIsExists(frames[name]))
+  return frames[name];
+ for(var i = 0; i < frames.length; i++) {
+  try {
+   var frame = frames[i];
+   if(frame.name == name) 
+    return frame; 
+   frame = _aspxGetFrame(frame.frames, name);
+   if(frame != null)   
+    return frame; 
+  } catch(e) {
+  } 
+ }
+ return null;
+}
+
+// ]]>
+</script>
+<table cellpadding="0" cellspacing="0" border="0" style="border-width:0px;empty-cells:show;width:1667px;height:3111px;">
+	<tr style="vertical-align:top;">
+		<td style="width:19px;height:26px;"></td>
+		<td style="width:15px;"></td>
+		<td style="width:28px;"></td>
+		<td style="width:19px;"></td>
+		<td style="width:29px;"></td>
+		<td style="width:25px;"></td>
+		<td style="width:87px;"></td>
+		<td style="width:13px;"></td>
+		<td style="width:29px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:6px;"></td>
+		<td style="width:7px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:13px;"></td>
+		<td style="width:9px;"></td>
+		<td style="width:4px;"></td>
+		<td style="width:1px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:84px;"></td>
+		<td style="width:48px;"></td>
+		<td style="width:41px;"></td>
+		<td style="width:42px;"></td>
+		<td style="width:47px;"></td>
+		<td style="width:23px;"></td>
+		<td style="width:22px;"></td>
+		<td style="width:44px;"></td>
+		<td style="width:82px;"></td>
+		<td style="width:8px;"></td>
+		<td style="width:11px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:13px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:13px;"></td>
+		<td style="width:11px;"></td>
+		<td style="width:82px;"></td>
+		<td style="width:107px;"></td>
+		<td style="width:105px;"></td>
+		<td style="width:24px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:13px;"></td>
+		<td style="width:2px;"></td>
+		<td style="width:13px;"></td>
+		<td style="width:20px;"></td>
+		<td style="width:79px;"></td>
+		<td style="width:74px;"></td>
+		<td style="width:135px;"></td>
+		<td style="width:140px;"></td>
+		<td style="width:68px;"></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:23px;"></td>
+		<td class="csF2DD7507" colspan="4" style="width:87px;height:23px;text-align:left;vertical-align:top;">Settings</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:23px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:22px;"></td>
+		<td class="cs892AFE34" colspan="14" style="width:280px;height:22px;text-align:left;vertical-align:top;">Gene&nbsp;Settings</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:14px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="csEDBDB9D4" colspan="2" style="width:39px;height:22px;text-align:center;vertical-align:middle;">No</td>
+		<td class="csF3F72F51" colspan="5" style="width:170px;height:22px;text-align:center;vertical-align:middle;">Name</td>
+		<td class="csF3F72F51" colspan="10" style="width:72px;height:22px;text-align:center;vertical-align:middle;">Removed</td>
+		<td class="csF3F72F51" colspan="3" style="width:170px;height:22px;text-align:center;vertical-align:middle;">Internal&nbsp;Control</td>
+		<td class="csF3F72F51" colspan="2" style="width:86px;height:22px;text-align:center;vertical-align:middle;">Maximal&nbsp;Cq</td>
+		<td class="csF3F72F51" colspan="3" style="width:86px;height:22px;text-align:center;vertical-align:middle;">Minimal&nbsp;Slope</td>
+		<td class="csF3F72F51" colspan="2" style="width:87px;height:22px;text-align:center;vertical-align:middle;">Minimal&nbsp;EPF</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs39B66313" colspan="2" rowspan="4" style="width:39px;height:22px;text-align:center;vertical-align:middle;">1</td>
+		<td class="csC1D8E501" colspan="5" rowspan="4" style="width:170px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csE584BEBE" rowspan="3" style="width:27px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" colspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="3" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" colspan="4" rowspan="3" style="width:13px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="3" rowspan="4" style="width:170px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="4" style="width:86px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="3" rowspan="4" style="width:86px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="4" style="width:87px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" colspan="2" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" colspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" style="width:27px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="5" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" colspan="4" style="width:13px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs9EAE67E0" colspan="2" rowspan="4" style="width:39px;height:22px;text-align:center;vertical-align:middle;">2</td>
+		<td class="cs390EA878" colspan="5" rowspan="4" style="width:170px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs3604CE32" rowspan="3" style="width:27px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" colspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="3" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" colspan="4" rowspan="3" style="width:13px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="3" rowspan="4" style="width:170px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="4" style="width:86px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="3" rowspan="4" style="width:86px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="4" style="width:87px;height:22px;text-align:right;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" colspan="2" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" colspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" style="width:27px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="5" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" colspan="4" style="width:13px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:23px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:23px;"></td>
+		<td class="csD383677D" colspan="10" style="width:253px;height:23px;text-align:left;vertical-align:top;">Ampification&nbsp;Curves</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:421px;"></td>
+		<td class="cs79B1BEBA" colspan="31" style="width:760px;height:421px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:760px;height:421px;">
+			<img alt="" src="qualitative detection001_files/2618184425.bmp" style="width:760px;height:421px;" /></div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:27px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:23px;"></td>
+		<td class="csF2DD7507" colspan="14" style="width:280px;height:23px;text-align:left;vertical-align:top;">Heat&nbsp;Map&nbsp;Views</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:20px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="cs5EA52491" colspan="15" style="width:280px;height:24px;text-align:left;vertical-align:top;">SYBR&nbsp;Green&nbsp;I&nbsp;-&nbsp;Call</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:4px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:336px;"></td>
+		<td class="cs78D3A0E2" colspan="23" style="width:576px;height:336px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:576px;height:336px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:600px;height:350px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/3589994271.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/3589994271.png" style="width:600px;height:350px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:39px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="cs5EA52491" colspan="15" style="width:280px;height:24px;text-align:left;vertical-align:top;">SYBR&nbsp;Green&nbsp;I&nbsp;-&nbsp;Cq</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:336px;"></td>
+		<td class="cs78D3A0E2" colspan="23" style="width:576px;height:336px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:576px;height:336px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:600px;height:350px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/3539288692.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/3539288692.png" style="width:600px;height:350px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:38px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="cs5EA52491" colspan="15" style="width:280px;height:24px;text-align:left;vertical-align:top;">SYBR&nbsp;Green&nbsp;I&nbsp;-&nbsp;EPF</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:336px;"></td>
+		<td class="cs78D3A0E2" colspan="23" style="width:576px;height:336px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:576px;height:336px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:600px;height:350px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/1743234983.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/1743234983.png" style="width:600px;height:350px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:38px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="cs5EA52491" colspan="15" style="width:280px;height:24px;text-align:left;vertical-align:top;">SYBR&nbsp;Green&nbsp;I&nbsp;-&nbsp;Failure</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:336px;"></td>
+		<td class="cs78D3A0E2" colspan="23" style="width:576px;height:336px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:576px;height:336px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:600px;height:350px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/1915131680.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/1915131680.png" style="width:600px;height:350px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:38px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="cs5EA52491" colspan="15" style="width:280px;height:24px;text-align:left;vertical-align:top;">SYBR&nbsp;Green&nbsp;I&nbsp;-&nbsp;CombinedCall</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:336px;"></td>
+		<td class="cs78D3A0E2" colspan="23" style="width:576px;height:336px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:576px;height:336px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:600px;height:350px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/123398031.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/123398031.png" style="width:600px;height:350px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:23px;"></td>
+		<td class="csF2DD7507" colspan="14" style="width:280px;height:23px;text-align:left;vertical-align:top;">Result&nbsp;Table</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:19px;"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:24px;"></td>
+		<td class="cs5CA11B1D" colspan="3" style="width:60px;height:22px;text-align:center;vertical-align:middle;">Color</td>
+		<td class="cs46383B35" colspan="2" style="width:53px;height:22px;text-align:center;vertical-align:middle;">Position</td>
+		<td class="cs46383B35" style="width:86px;height:22px;text-align:center;vertical-align:middle;">Sample&nbsp;Name</td>
+		<td class="cs46383B35" colspan="10" style="width:85px;height:22px;text-align:center;vertical-align:middle;">Gene&nbsp;Name</td>
+		<td class="cs46383B35" colspan="2" style="width:85px;height:22px;text-align:center;vertical-align:middle;">Gene&nbsp;Type</td>
+		<td class="cs46383B35" style="width:47px;height:22px;text-align:center;vertical-align:middle;">Cq</td>
+		<td class="cs46383B35" colspan="2" style="width:82px;height:22px;text-align:center;vertical-align:middle;">Call</td>
+		<td class="cs46383B35" colspan="3" style="width:91px;height:22px;text-align:center;vertical-align:middle;">Combined&nbsp;Result</td>
+		<td class="cs46383B35" colspan="2" style="width:125px;height:22px;text-align:center;vertical-align:middle;">Failure</td>
+		<td class="cs46383B35" colspan="7" style="width:59px;height:22px;text-align:center;vertical-align:middle;">Excluded</td>
+		<td class="cs46383B35" style="width:81px;height:22px;text-align:center;vertical-align:middle;">Sample&nbsp;Type</td>
+		<td class="cs46383B35" style="width:106px;height:22px;text-align:center;vertical-align:middle;">Replicate&nbsp;Group</td>
+		<td class="cs46383B35" style="width:104px;height:22px;text-align:center;vertical-align:middle;">Dye</td>
+		<td class="cs46383B35" colspan="6" style="width:73px;height:22px;text-align:center;vertical-align:middle;">Edited&nbsp;Call</td>
+		<td class="cs46383B35" style="width:78px;height:22px;text-align:center;vertical-align:middle;">Slope</td>
+		<td class="cs46383B35" style="width:73px;height:22px;text-align:center;vertical-align:middle;">EPF</td>
+		<td class="cs46383B35" style="width:134px;height:22px;text-align:center;vertical-align:middle;">Notes</td>
+		<td class="cs46383B35" style="width:139px;height:22px;text-align:center;vertical-align:middle;">Prep&nbsp;Notes</td>
+		<td class="cs46383B35" style="width:67px;height:22px;text-align:center;vertical-align:middle;">Number</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">A1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample1</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">34.75</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.99</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">3.58</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">1</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">A2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample1</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">21.47</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.65</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">3.77</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">2</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">B1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample2</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">23.95</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.49</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">3.27</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">3</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">B2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample2</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">40.62</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.71</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">1.65</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">4</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">C1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample3</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">24.15</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.61</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">3.60</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">5</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">C2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample3</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">38.36</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.90</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">2.94</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">6</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">D1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample4</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">25.12</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.46</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">2.94</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">7</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">D2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Sample4</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">22.31</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Unknown</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.54</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">2.80</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">8</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">E1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Wild&nbsp;type</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">34.23</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Standard</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.49</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">2.34</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">9</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">E2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Wild&nbsp;type</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">20.37</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Standard</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.41</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">2.14</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">10</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">F1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">Parent</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">25.02</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Positive&nbsp;control</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.59</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">3.09</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">11</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:22px;text-align:left;vertical-align:middle;">F2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:22px;text-align:left;vertical-align:middle;">parent</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:22px;text-align:left;vertical-align:middle;">21.58</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:22px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:22px;text-align:left;vertical-align:middle;">None</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:22px;text-align:left;vertical-align:middle;">Positive&nbsp;control</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:22px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:22px;text-align:left;vertical-align:middle;">0.72</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:22px;text-align:left;vertical-align:middle;">3.02</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:22px;text-align:left;vertical-align:middle;">12</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:3px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:0px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs96289795" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csE584BEBE" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:51px;height:29px;text-align:left;vertical-align:middle;">G1</td>
+		<td class="csC1D8E501" rowspan="5" style="width:84px;height:29px;text-align:left;vertical-align:middle;">NTC</td>
+		<td class="csC1D8E501" colspan="10" rowspan="5" style="width:83px;height:29px;text-align:left;vertical-align:middle;">GFP</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:83px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:45px;height:29px;text-align:left;vertical-align:middle;">43.73</td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:80px;height:29px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="csC1D8E501" colspan="3" rowspan="5" style="width:89px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" colspan="2" rowspan="5" style="width:123px;height:29px;text-align:left;vertical-align:middle;">Neg&nbsp;Ctrl&nbsp;is&nbsp;positive</td>
+		<td class="csE584BEBE" colspan="2" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:8px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:79px;height:29px;text-align:left;vertical-align:middle;">Negative<br/>control</td>
+		<td class="csC1D8E501" rowspan="5" style="width:104px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:102px;height:29px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="csE584BEBE" rowspan="4" style="width:22px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="4" style="width:13px;height:23px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA2DCF759" rowspan="4" style="width:17px;height:22px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:76px;height:29px;text-align:left;vertical-align:middle;">0.24</td>
+		<td class="csC1D8E501" rowspan="5" style="width:71px;height:29px;text-align:left;vertical-align:middle;">0.42</td>
+		<td class="csC1D8E501" rowspan="5" style="width:132px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:137px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csC1D8E501" rowspan="5" style="width:65px;height:29px;text-align:left;vertical-align:middle;">13</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csEE958329" rowspan="2" style="width:12px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs7205A8BB" rowspan="2" style="width:22px;height:13px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA8148512" rowspan="2" style="width:16px;height:15px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="cs8BE7A6D9" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:2px;"></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs8BE7A6D9" rowspan="2" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs66BCB9E3" rowspan="2" style="width:12px;height:10px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" rowspan="2" style="width:26px;height:10px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" rowspan="2" style="width:16px;height:10px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:8px;"></td>
+		<td class="csFB6203A2" colspan="2" style="width:17px;height:7px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:7px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:8px;height:7px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" style="width:22px;height:7px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csFB6203A2" colspan="4" style="width:28px;height:7px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4CAECA0B" style="width:17px;height:7px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:5px;"></td>
+		<td class="cs8ED79729" style="width:12px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs3604CE32" style="width:26px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" style="width:16px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:51px;height:29px;text-align:left;vertical-align:middle;">G2</td>
+		<td class="cs390EA878" rowspan="5" style="width:84px;height:29px;text-align:left;vertical-align:middle;">NTC</td>
+		<td class="cs390EA878" colspan="10" rowspan="5" style="width:83px;height:29px;text-align:left;vertical-align:middle;">VGlut3</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:83px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:45px;height:29px;text-align:left;vertical-align:middle;">42.46</td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:80px;height:29px;text-align:left;vertical-align:middle;">Positive</td>
+		<td class="cs390EA878" colspan="3" rowspan="5" style="width:89px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" colspan="2" rowspan="5" style="width:123px;height:29px;text-align:left;vertical-align:middle;">Neg&nbsp;Ctrl&nbsp;is&nbsp;positive</td>
+		<td class="cs3604CE32" colspan="2" rowspan="4" style="width:17px;height:21px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:8px;height:21px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:79px;height:29px;text-align:left;vertical-align:middle;">Negative<br/>control</td>
+		<td class="cs390EA878" rowspan="5" style="width:104px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:102px;height:29px;text-align:left;vertical-align:middle;">SYBR&nbsp;Green&nbsp;I</td>
+		<td class="cs3604CE32" rowspan="4" style="width:22px;height:21px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:11px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:5px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="4" style="width:13px;height:22px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs6B687378" rowspan="4" style="width:17px;height:21px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:76px;height:29px;text-align:left;vertical-align:middle;">0.68</td>
+		<td class="cs390EA878" rowspan="5" style="width:71px;height:29px;text-align:left;vertical-align:middle;">1.01</td>
+		<td class="cs390EA878" rowspan="5" style="width:132px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:137px;height:29px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs390EA878" rowspan="5" style="width:65px;height:29px;text-align:left;vertical-align:middle;">14</td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:13px;"></td>
+		<td class="csF4E71A23" rowspan="2" style="width:12px;height:14px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs9CADFDCA" rowspan="2" style="width:22px;height:12px;text-align:left;vertical-align:middle;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csEA7AA95E" rowspan="2" style="width:16px;height:14px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" style="width:13px;height:13px;text-align:left;vertical-align:top;"><div style="overflow:hidden;width:13px;height:13px;">
+			<!--[if lt IE 7]><img alt="" src="qualitative detection001_files/4133685977.gif" style="width:13px;height:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='qualitative detection001_files/2519606202.png',sizingMethod='scale');" /><div style="display:none"><![endif]--><img alt="" src="qualitative detection001_files/2519606202.png" style="width:13px;height:13px;" /><!--[if lt IE 7]></div><![endif]--></div>
+		</td>
+		<td class="csED308D75" style="width:0px;height:13px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:1px;"></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:11px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csED308D75" rowspan="2" style="width:0px;height:4px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:3px;"></td>
+		<td class="cs3051DF7A" rowspan="2" style="width:12px;height:11px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" rowspan="2" style="width:26px;height:11px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" rowspan="2" style="width:16px;height:11px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+	<tr style="vertical-align:top;">
+		<td style="height:9px;"></td>
+		<td class="cs4FA490CA" colspan="2" style="width:17px;height:8px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:8px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:8px;height:8px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" style="width:22px;height:8px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="cs4FA490CA" colspan="4" style="width:28px;height:8px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+		<td class="csA3506DBB" style="width:17px;height:8px;"><!--[if lte IE 7]><div class="csF7D3565D"></div><![endif]--></td>
+	</tr>
+</table>
+</body>
+</html>
